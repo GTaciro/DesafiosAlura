@@ -1,0 +1,36 @@
+// Desafio 1
+let diaDaSemana = prompt ("Qual é o dia da semana?");
+if (diaDaSemana =="Sábado") {
+    alert ("Bom final de semnana!");
+}else if (diaDaSemana == "Domingo"){
+    alert ("Bom final de semnana!");
+} else {
+    alert ("Boa semana")
+}
+
+
+//Desafio 2
+ numero = prompt ("Digite um número positivo ou negativo.");
+if (numero > 0) {
+    alert (" O número é positivo");
+} else {
+    alert (" O número é negativo");
+    }
+
+
+//Desafio 3
+let pontuacao = prompt (" Qual foi a sua pontuação?") 
+pontuacao = 107;
+if (pontuacao >= 100) {
+    alert ("Parabéns, você venceu!");
+} else {
+    alert ("Tente novamente para ganhar.");
+}
+
+//Desafio 4
+saldoDaConta = 5000;
+alert ( `Seu saldo é de ${saldoDaConta}`);
+
+//Desafio 5
+let nome = prompt("Por gentileza, digite o seu nome.");
+alert (`Bem vindo ${nome}!`);
